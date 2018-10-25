@@ -129,7 +129,7 @@ include_once '../menu/menu.php';
 
 								<div class="form-group">
 									<label>Cantidad</label>
-									<input type="number" placeholder="$"  required  class="form-control" name="cantidad" >
+									<input type="number" placeholder="S/."  required  class="form-control" name="cantidad" >
 								</div>
 
 								<div class="form-group">
@@ -141,9 +141,9 @@ include_once '../menu/menu.php';
 									<label>Tipo de Pago</label>
 									<select  name="tipodepago" class="form-control" required>
 									<option value=""></option>
-                                       <option value="Inscripcion">Inscripcion</option>
-	                                   <option value="Fiscal" > Colegiatura Fiscal</option>
-									   <option value="No Fiscal" > Colegiatura No Fiscal</option>
+                                       <option value="Inscripcion">Matricula</option>
+	                                   <option value="Fiscal" > Pension</option>
+									   <option value="No Fiscal" > Otro(s)</option>
                                 	</select>
 								</div>
 								<div class="form-group">
@@ -152,7 +152,7 @@ include_once '../menu/menu.php';
 								</div>
 								<div class="form-group">
 									<label>No.Recibo</label>
-									<input type="number" class="form-control" name="recibo" placeholder="Numero de recibo" pattern="[0-9]" oninvalid="setCustomValidity('Ingrese solo numeros')" 
+									<input type="number" class="form-control" name="recibo" placeholder="Numero de recibo" pattern="[0-9]" oninvalid="setCustomValidity('Ingrese solo numeros')"
 									oninput="setCustomValidity('')">
 								</div>
 
